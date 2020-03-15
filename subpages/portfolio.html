@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+  <!--Nav Bar-->
+  <nav id="myNav">
+    <a href = "../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <ul class="nav_link">
+        <li><a href="about.html" id="about">About</a></li>
+        <li><a href="../AndyChenResume.pdf" id="resume">Resume</a></li>
+        <li><a href="portfolio.html" id="projects">Projects</a></li>
+        <li><a href="contact.html" id="contact">Contact</a></li>
+    </ul>    
+</nav>
+
+    <!-- Create a container for content-->
+    <div class="container ">
+        <div class="row ">
+          <!-- Create a column that change size with is at large screen width-->
+          <div class="col col-md-12 col-sm-12 col-xs-12 col-lg-8 customcss">
+            <h1>Portfolio</h1><hr>
+            
+            
+            <!-- Create a section for projects, currently are just images without links to them as placeholders-->
+            <section class="projects row">
+              <!-- only used 5/12 column so that we can have some spaces in between per picture-->
+                <div class="col-md-5 col-sm-12 site" >
+                    <div class="imageContainer">
+                        <a href="https://andyjchen24.github.io/Project1/"><img class="img" src="../AnimeSearch.png" alt="AnimeSearch Image"></a>
+                    </div>
+                    <h5>Otaku Zone</h5>
+                </div>
+                <div class="col-md-5 col-sm-12 site" >
+                    <div class="imageContainer">
+                        <a href="https://andyjchen24.github.io/WeatherAPI/"><img class="img" src="../weatherAPI.png" alt="Weather Image"></a>
+                    </div>
+                    <h5>Weather API</h5>
+                </div>
+                <div class="col-md-5 col-sm-12 site" >
+                    <div class="imageContainer">
+                        <a href="https://andyjchen24.github.io/WorkDayScheduler/"><img class="img" src="../WorkDayScheduler.png" alt="WorkDayScheduler Image"></a>
+                    </div>
+                    <h5>Work Day cheduler</h5>
+                </div>
+                <div class="col-md-5 col-sm-12 site" >
+                    <div class="imageContainer">
+                        <a href="https://andyjchen24.github.io/RandomPasswordGenerator/"><img class="img" src="../RandomPasswordGenerator.png" alt="RandomPasswordGenerator Image"></a>
+                    </div>
+                    <h5>Random Password Generator</h5>
+                </div>
+            </section>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../javascript.js"></script>
+</body>
+</html>

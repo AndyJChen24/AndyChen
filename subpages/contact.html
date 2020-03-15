@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contact</title>
+</head>
+<body>
+  <!--Nav Bar-->
+  <nav id="myNav">
+    <a href = "../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <ul class="nav_link">
+        <li><a href="about.html" id="about">About</a></li>
+        <li><a href="../AndyChenResume.pdf" id="resume">Resume</a></li>
+        <li><a href="portfolio.html" id="projects">Projects</a></li>
+        <li><a href="contact.html" id="contact">Contact</a></li>
+    </ul>    
+</nav>
+
+    <!-- Create a container for content-->
+    <div class="container">
+      <div class="row">
+        <!-- Create a column that change size with is at large screen width-->
+        <div class="col col-md-12 col-sm-12 col-xs-12 col-lg-8">
+            <h1>Contact</h1><hr>
+        
+        
+            <!-- Form page for submitting information-->
+            <form>
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="../javascript.js"></script>
+</body>
+</html>
