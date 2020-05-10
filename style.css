@@ -150,12 +150,18 @@ h1{
 }
 
 .img{
-    width:250px;
-    height:auto;
+    width:100%;
+    
 }
 .imageContainer{
     display:flex;  
     align-self: center;
+    height:140px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.caption{
+    height:50px;
 }
 .projects{
     display:flex;
@@ -166,7 +172,8 @@ h1{
     border-style: solid;
     border-width: 1px;
     margin: 1em;
-    
+    overflow: hidden;
+    height:200px;
 }
 .fa{
     font-size: 24px;
